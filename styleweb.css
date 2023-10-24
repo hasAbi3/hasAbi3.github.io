@@ -1,0 +1,32 @@
+body{
+	background-color: #light;
+
+font-family: 'Young Serif', serif;
+background-color: #B19CD9;
+background-size: cover;
+
+}
+
+.image
+{
+	border-radius: 	50%;
+	border: 10px solid #555;
+}
+
+.res
+{
+	border-radius: 50%;
+}
+.col-12.col-md-6.mb-3.margin-auto {
+    /* CSS properties go here */
+   text-align	: center;
+   margin-top: 125px;
+
+}
+
+.mt
+{
+	margin-top: 75px;
+}
+
+
