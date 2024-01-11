@@ -15,7 +15,7 @@ document.getElementById('weatherForm').addEventListener('submit', function (e) {
                 <i class="fa-solid fa-temperature-three-quarters"></i> <p>Temperature: ${data.main.temp} °C</p><hr>
                
                 <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7911203/weather-icon-md.png" width=80><p>Weather: ${data.weather[0].description}</p><hr>
-                <img src="images/humidity.png"> <p>Humidity: ${data.main.humidity}%</p>
+                <img src="image/humidity.png"> <p>Humidity: ${data.main.humidity}%</p>
             `;
         })
         .catch(error => {
