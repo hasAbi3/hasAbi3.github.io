@@ -207,7 +207,7 @@ form input, form textarea
 	background: #262626;
 	padding: 15px;
 	margin:15px;
-	color:#fff;
+	color:black;
 	font-size:18px;
 	border-radius: 6px;
 }
@@ -230,6 +230,18 @@ html{
 #Myprojects
 {
 	text-align: center;
+}
+
+.project-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Two columns */
+	gap: 20px; /* Space between items */
+	margin-right: 200px;
+	margin-left: 200px;
+}
+        
+.projects {
+	align-self: center;
 }
 
 .tic{
