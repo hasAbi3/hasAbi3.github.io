@@ -267,13 +267,18 @@ h2{
 
 .front {
     background-color: white;
-	display: flex;
+    display: flex;
     flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-	padding-top: 40px;
+    margin-top: 10px;
 }
+
+.projects .front > img {
+	width: 140px; /* Adjust the width */
+	height: 140px; /* Maintain aspect ratio */
+  }
 
 .back {
     background-color: #f8f9fa;
@@ -324,8 +329,4 @@ img {
 
 .btn:hover {
     background-color: #0056b3;
-}
-
-.tic {
-    margin-bottom: 10px; /* Additional space below the image if needed */
 }
